@@ -1,0 +1,12 @@
+.box {
+  padding-top: 40px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box_input {
+  width: 150px;
+}
