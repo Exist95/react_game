@@ -1,3 +1,4 @@
+/* 박스 */
 .box {
   padding-top: 40px;
   font-size: 20px;
@@ -6,7 +7,44 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .box_input {
   width: 150px;
+}
+
+.subtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 정답칸 */
+.hideNum {
+  background-color: violet;
+  color: violet;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hideNum:hover {
+  background-color: white;
+}
+
+.history {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.history_box {
+  border: 2px solid black;
+  width: 800px;
+  height: max-content;
 }
