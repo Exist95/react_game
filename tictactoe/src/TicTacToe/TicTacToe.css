@@ -1,0 +1,21 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table td {
+  border: 1px solid grey;
+  width: 100px;
+  height: 100px;
+}
+
+tr {
+}
